@@ -1,9 +1,16 @@
 <template>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis amet, neque eaque, facere accusamus consequuntur
-  tenetur unde libero mollitia deleniti excepturi quam aut ipsam, aliquid architecto quos saepe sint ullam?
+  <nav id="navbar">
+    <HeaderLogo />
+    <HeaderMenu />
+    <HeaderLogin />
+  </nav>
 </template>
 
 <script setup lang="ts">
 </script>
 
-<style scoped lang="postcss"></style>
+<style scoped lang="postcss">
+#navbar {
+  @apply flex flex-row max-w-6xl mx-auto justify-between items-center;
+}
+</style>
