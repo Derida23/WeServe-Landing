@@ -4,7 +4,11 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    'nuxt-svgo',
   ],
+  svgo: {
+    componentPrefix: 'icon',
+  },
   googleFonts: {
     preload: true,
     display: 'swap',
