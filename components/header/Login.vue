@@ -19,7 +19,7 @@
 
 <style scoped lang="postcss">
 .login {
-  @apply flex flex-row gap-2;
+  @apply flex flex-row gap-x-3;
 
   &-bag {
     @apply flex justify-center;

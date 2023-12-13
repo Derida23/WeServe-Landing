@@ -8,8 +8,6 @@
       weserve.
     </h1>
   </div>
-
-  <div />
 </template>
 
 <style scoped lang="postcss">
