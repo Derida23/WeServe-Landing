@@ -13,7 +13,7 @@ const menu = [
     <li v-for="item in menu" :key="item.name">
       <div class="menu">
         <a :href="item.url" target="_blank"> {{ item.name }} </a>
-        <IconArrowDown v-if="item.icon" filled class="!mb-0" />
+        <IconArrowDown v-if="item.icon" filled class="!mb-0 text-indigo" />
       </div>
     </li>
   </ul>
@@ -26,6 +26,6 @@ const menu = [
 
 .menu {
   @apply flex flex-row items-center gap-1 font-medium cursor-pointer;
-  @apply hover:text-indigo-700
+  @apply hover:text-hanPurple
 }
 </style>

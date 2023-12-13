@@ -39,7 +39,7 @@
 
     &-signin {
       @apply bg-cetaceanBlue text-white font-semibold w-36;
-      @apply hover:bg-indigo-700
+      @apply hover:bg-hanPurple
     }
   }
 }
