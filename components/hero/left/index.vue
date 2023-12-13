@@ -2,9 +2,9 @@
 
 <template>
   <div>
-    <HeroBadge />
-    <HeroTitle class="my-10" />
-    <HeroTrial />
+    <HeroLeftBadge />
+    <HeroLeftTitle class="my-10" />
+    <HeroLeftTrial />
   </div>
 </template>
 
