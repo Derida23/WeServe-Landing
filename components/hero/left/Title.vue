@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <div class="my-10">
     <h1>
       Grow Online Business Faster.
     </h1>

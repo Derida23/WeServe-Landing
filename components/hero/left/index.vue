@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <div class="my-auto">
     <HeroLeftBadge />
-    <HeroLeftTitle class="my-10" />
+    <HeroLeftTitle />
     <HeroLeftTrial />
   </div>
 </template>

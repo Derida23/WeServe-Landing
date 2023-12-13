@@ -10,6 +10,9 @@ export default defineNuxtConfig({
   svgo: {
     componentPrefix: 'icon',
   },
+  image: {
+    dir: 'assets/images',
+  },
   googleFonts: {
     preload: true,
     display: 'swap',
