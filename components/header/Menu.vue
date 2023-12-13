@@ -1,5 +1,15 @@
+<script setup lang="ts">
+const menu = [
+  { name: 'Products', url: 'https://www.google.com', icon: false },
+  { name: 'Services', url: 'https://www.google.com', icon: true },
+  { name: 'Pricing', url: 'https://www.google.com', icon: false },
+  { name: 'Testimonials', url: 'https://www.google.com', icon: false },
+  { name: 'Blog', url: 'https://www.google.com', icon: false },
+]
+</script>
+
 <template>
-  <ul class="flex flex-row gap-x-7">
+  <ul class="list">
     <li v-for="item in menu" :key="item.name">
       <div class="menu">
         <a :href="item.url" target="_blank"> {{ item.name }} </a>
@@ -9,18 +19,13 @@
   </ul>
 </template>
 
-<script setup lang="ts">
-const menu = reactive([
-  { name: 'Products', url: '#', icon: false },
-  { name: 'Services', url: '#', icon: true },
-  { name: 'Pricing', url: '#', icon: false },
-  { name: 'Testimonials', url: '#', icon: false },
-  { name: 'Blog', url: '#', icon: false }
-])
-</script>
-
 <style scoped lang="postcss">
+.list {
+  @apply flex flex-row gap-x-7;
+}
+
 .menu {
-  @apply flex flex-row gap-1 font-medium;
+  @apply flex flex-row items-center gap-1 font-medium cursor-pointer;
+  @apply hover:text-indigo-700
 }
 </style>
