@@ -7,10 +7,8 @@
       <HeroRightBadgeMid />
       <HeroRightBadgeBot />
       <NuxtImg
-        src="illustration-1.jpeg"
-        loading="lazy"
-        width="400"
-        height="497"
+        src="/images/illustration-1.jpeg"
+        loading="lazy" width="400" height="497"
         class="rounded-r-[70px] rounded-bl-[70px]"
       />
     </div>

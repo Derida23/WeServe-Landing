@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     componentPrefix: 'icon',
   },
   image: {
-    dir: 'assets/images',
+    dir: 'assets/',
   },
   googleFonts: {
     preload: true,
