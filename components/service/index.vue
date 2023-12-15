@@ -24,14 +24,9 @@ function hideComponent() {
     Your Best Choice
   </h1>
   <div class="service">
-    <div 
-      v-for="(content, index) in contents" 
-      :key="content.title" 
-      class="service-item relative"
-      @mouseover="showComponent(Number(index))" 
-      @mouseleave="hideComponent"
-    >
-      <p v-show="isHovered === index" class="text-white absolute top-2 right-4 z-0">
+    <div v-for="(content, index) in contents" :key="content.title" class="service-item relative"
+      @mouseover="showComponent(Number(index))" @mouseleave="hideComponent">
+      <p v-show="isHovered === index" class="image-blur">
         <IconBlur filled class="text-[170px]" />
       </p>
       <component :is="`Icon${content.icon}`" filled class="text-4xl text-hanPurple icon" />
@@ -87,6 +82,10 @@ h1 {
 
   .service-item:hover>.icon {
     @apply text-white;
+  }
+
+  .image-blur {
+    @apply text-white absolute top-2 right-4 z-0;
   }
 }
 </style>

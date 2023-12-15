@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="ecosystem">
+  <div class="ecosystem flex items-center">
     <EcosystemLeft />
     <EcosystemRight />
   </div>

@@ -2,7 +2,7 @@
   <div class="badge">
     <div class="badge-wrapper">
       <div class="badge-icon">
-        <IconStatusUp filled class="text-[46px] " />
+        <IconStatusUp filled class="text-[46px] text-hanPurple" />
       </div>
       <div class="badge-content">
         <p class="badge-content-title">

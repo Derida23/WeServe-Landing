@@ -13,7 +13,6 @@ const companies = reactive([
 <template>
   <div class="company">
     <div v-for="company in companies" :key="company.name" class="company-wrapper">
-      <!-- <NuxtImg :src="`/icons/logo-${company.icon}.svg`" class="text-red-400" /> -->
       <component :is="`IconLogo${company.icon}`" class="text-4xl" />
       <p>{{ company.name }}</p>
     </div>
