@@ -7,7 +7,7 @@ import type { IconDeviceMessage } from '#build/components';
       Try Free Trial
     </button>
     <button>
-      <div class="flex flex-row gap-x-1 items-center text-hanPurple font-semibold">
+      <div class="trial-link">
         <IconDeviceMessage filled class="text-2xl" />
         Schedule a Demo
       </div>
@@ -22,6 +22,10 @@ import type { IconDeviceMessage } from '#build/components';
   &-button {
     @apply bg-hanPurple px-10 py-4 text-white rounded-full font-bold text-lg;
     @apply hover:bg-cetaceanBlue
+  }
+
+  &-link {
+    @apply flex flex-row gap-x-1 items-center text-hanPurple font-semibold;
   }
 }
 </style>

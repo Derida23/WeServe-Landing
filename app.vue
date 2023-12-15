@@ -9,6 +9,14 @@
     <section id="companies">
       <Company />
     </section>
+
+    <section id="service">
+      <Service />
+    </section>
+
+    <section id="ecosystem">
+      <Ecosystem />
+    </section>
   </div>
 </template>
 
@@ -22,6 +30,10 @@
 }
 
 #companies {
-  @apply flex items-center justify-center my-14;
+  @apply flex items-center justify-center mt-14 mb-20;
+}
+
+#service {
+  @apply my-20
 }
 </style>
