@@ -64,6 +64,7 @@ const contents = reactive([
   .button {
     &-explore {
       @apply px-10 py-4 bg-hanPurple rounded-full text-white font-semibold;
+      @apply hover:bg-cetaceanBlue;
     }
 
     &-schedule {

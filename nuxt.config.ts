@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     'nuxt-svgo',
     '@nuxt/image',
+    'nuxt-swiper',
   ],
   svgo: {
     componentPrefix: 'icon',

@@ -1,3 +1,11 @@
+<script setup lang="ts">
+import { useHead } from 'nuxt/app'
+
+useHead({
+  title: 'WeServe - Grow Online Business Faster',
+})
+</script>
+
 <template>
   <div id="body">
     <Navbar />
@@ -18,6 +26,10 @@
       <Ecosystem />
     </section>
   </div>
+
+  <section id="showcase">
+    <Showcase />
+  </section>
 </template>
 
 <style scoped lang="postcss">
@@ -35,5 +47,13 @@
 
 #service {
   @apply my-20
+}
+
+#ecosystem {
+  @apply mb-10
+}
+
+#showcase {
+  @apply mb-10 w-screen mx-auto;
 }
 </style>

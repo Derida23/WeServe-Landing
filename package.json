@@ -23,6 +23,7 @@
     "eslint": "^8.55.0",
     "nuxt": "^3.8.2",
     "nuxt-svgo": "^3.7.0",
+    "nuxt-swiper": "^1.2.2",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
   }
