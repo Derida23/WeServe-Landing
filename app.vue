@@ -30,6 +30,10 @@ useHead({
   <section id="showcase">
     <Showcase />
   </section>
+
+  <section id="faq">
+    <Faq />
+  </section>
 </template>
 
 <style scoped lang="postcss">
@@ -55,5 +59,9 @@ useHead({
 
 #showcase {
   @apply mb-10 w-screen mx-auto;
+}
+
+#faq {
+  @apply mt-20 max-w-6xl mx-auto;
 }
 </style>
