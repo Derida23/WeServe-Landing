@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { useHead } from 'nuxt/app'
 
 useHead({
   title: 'WeServe - Grow Online Business Faster',
@@ -34,6 +33,10 @@ useHead({
   <section id="faq">
     <Faq />
   </section>
+
+  <section id="explore">
+    <Explore />
+  </section>
 </template>
 
 <style scoped lang="postcss">
@@ -63,5 +66,9 @@ useHead({
 
 #faq {
   @apply mt-20 max-w-6xl mx-auto;
+}
+
+#explore {
+  @apply mt-20 mx-auto mb-10;
 }
 </style>

@@ -13,6 +13,6 @@ import type { IconGlobal } from '#build/components';
 
 <style scoped lang="postcss">
 .badge {
-  @apply flex flex-row items-center bg-white px-4 py-1 rounded-full gap-1 w-fit;
+  @apply flex flex-row items-center bg-white px-4 py-2 rounded-full gap-1 w-fit;
 }
 </style>

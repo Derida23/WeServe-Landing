@@ -3,7 +3,7 @@
 <template>
   <div class="relative">
     <div class="badge-top">
-      <IconCrown filled class="text-5xl" />
+      <IconCrown filled class="text-5xl text-white" />
     </div>
     <div class="badge-mid">
       <div class="badge-mid-icon">
