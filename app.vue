@@ -37,6 +37,10 @@ useHead({
   <section id="explore">
     <Explore />
   </section>
+
+  <section id="footer">
+    <Footer />
+  </section>
 </template>
 
 <style scoped lang="postcss">
@@ -69,6 +73,10 @@ useHead({
 }
 
 #explore {
-  @apply mt-20 mx-auto mb-10;
+  @apply mt-20 mx-auto;
+}
+
+#footer {
+  @apply mx-auto;
 }
 </style>

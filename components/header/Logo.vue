@@ -15,7 +15,7 @@
   @apply flex flex-row gap-[0.375rem] cursor-pointer;
 
   &-icon {
-    @apply text-[2.5rem] !mb-0;
+    @apply text-[2.5rem] !mb-0 text-hanPurple;
   }
 
   &-header {

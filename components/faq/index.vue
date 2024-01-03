@@ -33,11 +33,10 @@ const contentsTwo = reactive([
 ])
 
 const isView = reactive<number[]>([1])
-const isViewTwo = reactive<number[]>([1])
+const isViewTwo = reactive<number[]>([0])
 
 const onView = (index: number, mode?: number) => {
-  console.log(mode)
-  if (mode !== null) {
+  if (mode !== undefined) {
     isViewTwo.push(index)
 
     return
@@ -47,7 +46,7 @@ const onView = (index: number, mode?: number) => {
 }
 
 const onOffView = (index: number, mode?: number) => {
-  if (mode !== null) {
+  if (mode !== undefined) {
     isViewTwo.splice(isViewTwo.indexOf(index), 1)
 
     return
