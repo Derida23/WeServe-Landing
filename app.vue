@@ -61,7 +61,7 @@ useHead({
 }
 
 #companies {
-  @apply flex items-center justify-center mt-14 mb-20;
+  @apply flex items-center justify-center mt-10 lg:mt-14 mb-16 lg:mb-20;
 }
 
 #service {
