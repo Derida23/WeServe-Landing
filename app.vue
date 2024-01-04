@@ -61,11 +61,11 @@ useHead({
 }
 
 #companies {
-  @apply flex items-center justify-center mt-10 lg:mt-14 mb-16 lg:mb-20;
+  @apply flex items-center justify-center mt-10 lg:mt-14 mb-12 lg:mb-20;
 }
 
 #service {
-  @apply my-20
+  @apply mb-16 lg:mb-20
 }
 
 #ecosystem {
@@ -82,7 +82,7 @@ useHead({
 }
 
 #explore {
-  @apply mt-20 mx-auto;
+  @apply mt-10 xl:mt-20 mx-auto;
 }
 
 #footer {

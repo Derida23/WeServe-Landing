@@ -12,17 +12,10 @@
   </div>
 
   <div>
-    <Swiper
-      :modules="[SwiperAutoplay, SwiperFreeMode]"
-      class="w-full mt-8"
-      :height="220"
-      :space-between="40"
-      :slides-per-view="1"
-      effect="creative"
-      :free-mode="true"
-    >
+    <Swiper :modules="[SwiperAutoplay, SwiperFreeMode]" class="w-full mt-8" :height="220" :space-between="40"
+      :slides-per-view="1" effect="creative" :free-mode="true">
       <SwiperSlide>
-        <div class="grid grid-cols-4 gap-x-10">
+        <div class="grid grid-cols-4 gap-x-5 lg:gap-x-10">
           <NuxtImg src="/images/showcase-1.png" class="rounded-xl" />
           <NuxtImg src="/images/showcase-2.png" class="rounded-xl" />
           <NuxtImg src="/images/showcase-3.png" class="rounded-xl" />
@@ -30,7 +23,7 @@
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div class="grid grid-cols-4 gap-x-10">
+        <div class="grid grid-cols-4 gap-x-5 lg:gap-x-10">
           <NuxtImg src="/images/showcase-1.png" class="rounded-xl" />
           <NuxtImg src="/images/showcase-2.png" class="rounded-xl" />
           <NuxtImg src="/images/showcase-3.png" class="rounded-xl" />
@@ -43,14 +36,14 @@
 
 <style scoped lang="postcss">
 .showcase-title {
-  @apply font-serif font-semibold text-4xl text-center;
+  @apply font-serif font-semibold text-3xl lg:text-4xl text-center;
 }
 
 .showcase-desc-wrapper {
   @apply flex flex-row items-center justify-center;
 }
 
-.shocase-desc {
-  @apply text-coolGray mt-3 text-center w-1/2;
+.showcase-desc {
+  @apply text-coolGray mt-3 text-center w-10/12 lg:w-8/12 xl:w-1/2 text-sm lg:text-base;
 }
 </style>

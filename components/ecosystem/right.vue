@@ -18,12 +18,12 @@ const contents = reactive([
     </p>
 
     <div v-for="content in contents" :key="content.icon" class="ecoright-wrapper">
-      <component :is="`Icon${content.icon}`" class="text-5xl !mb-0" filled />
+      <component :is="`Icon${content.icon}`" class="text-3xl lg:text-5xl !mb-0" filled />
       <div>
-        <p class="font-bold text-xl">
+        <p class="font-bold text-base lg:text-xl">
           {{ content.title }}
         </p>
-        <p class="text-coolGray text-sm">
+        <p class="text-coolGray text-xs lg:text-sm">
           {{ content.desc }}
         </p>
       </div>
@@ -46,29 +46,29 @@ const contents = reactive([
 <style scoped lang="postcss">
 .ecoright {
   &-wrapper {
-    @apply bg-white p-4 flex items-center gap-x-4 rounded-2xl mb-5;
+    @apply bg-white p-3 lg:p-4 flex items-center gap-x-2 lg:gap-x-4 rounded-2xl mb-5;
   }
 
   &-title {
-    @apply font-serif font-semibold text-4xl w-2/3;
+    @apply font-serif font-semibold text-2xl lg:text-3xl xl:text-4xl w-10/12 lg:w-[80%] xl:w-2/3;
   }
 
   &-desc {
-    @apply mt-3 text-coolGray mb-10;
+    @apply mt-2 lg:mt-3 text-coolGray mb-5 lg:mb-10 text-xs lg:text-base;
   }
 
   .button-wrapper {
-    @apply flex items-center gap-x-5 my-10;
+    @apply flex items-center gap-x-5 my-5 lg:my-10;
   }
 
   .button {
     &-explore {
-      @apply px-10 py-4 bg-hanPurple rounded-full text-white font-semibold;
+      @apply px-5 lg:px-10 py-3 lg:py-4 bg-hanPurple rounded-full text-white font-semibold text-sm lg:text-base;
       @apply hover:bg-cetaceanBlue;
     }
 
     &-schedule {
-      @apply flex flex-row gap-x-1 items-center text-hanPurple font-semibold;
+      @apply flex flex-row gap-x-1 items-center text-hanPurple font-semibold text-sm lg:text-base;
     }
   }
 }

@@ -125,11 +125,11 @@ const onOffView = (index: number, mode?: number) => {
 
 <style scoped lang='postcss'>
 .faq-title {
-  @apply font-serif font-semibold text-4xl text-center;
+  @apply font-serif font-semibold text-3xl lg:text-4xl text-center;
 }
 
 .faq {
-  @apply grid grid-cols-2 gap-x-4 my-10;
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4 gap-x-4 my-10 px-16 xl:px-0;
 
   &-wrapper {
     @apply flex flex-col gap-y-5;

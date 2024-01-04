@@ -29,7 +29,7 @@ function hideComponent() {
       <p v-show="isHovered === index" class="image-blur">
         <IconBlur filled class="text-[170px]" />
       </p>
-      <component :is="`Icon${content.icon}`" filled class="text-4xl text-hanPurple icon" />
+      <component :is="`Icon${content.icon}`" filled class="text-3xl lg:text-4xl text-hanPurple icon" />
       <div class="service-text">
         <p class="service-text-title">
           {{ content.title }}
@@ -48,11 +48,11 @@ function hideComponent() {
 
 <style scoped lang="postcss">
 h1 {
-  @apply text-center font-semibold text-4xl font-serif mb-8;
+  @apply text-center font-semibold text-3xl lg:text-4xl font-serif mb-8;
 }
 
 .service {
-  @apply grid grid-cols-4 gap-x-14 cursor-pointer;
+  @apply grid grid-cols-2 xl:grid-cols-4 gap-8 xl:gap-x-14 cursor-pointer;
 
   &-item {
     @apply bg-white rounded-2xl p-7;
@@ -61,7 +61,7 @@ h1 {
   }
 
   &-text {
-    @apply my-7 z-10 relative;
+    @apply my-4 lg:my-7 z-10 relative;
 
     &-title {
       @apply font-bold text-lg;
