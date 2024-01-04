@@ -5,7 +5,7 @@ import type { IconGlobal } from '#build/components';
 <template>
   <div class="badge">
     <IconGlobal filled class="!mb-0 text-2xl" />
-    <p class="font-semibold">
+    <p class="text-sm lg:text-base font-semibold">
       We host more than 120,000 websites
     </p>
   </div>

@@ -13,10 +13,10 @@
 
 <style scoped lang="postcss">
 .hero-wrapper {
-  @apply flex flex-row items-center justify-end pr-12 h-[550px];
+  @apply flex flex-row items-center justify-end pr-12 h-[400px] lg:h-[550px];
 }
 
 .hero-image {
-  @apply rounded-r-[70px] rounded-bl-[70px];
+  @apply rounded-r-[50px] lg:rounded-r-[70px] rounded-bl-[50px] lg:rounded-bl-[70px];
 }
 </style>

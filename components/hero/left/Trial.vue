@@ -20,12 +20,12 @@ import type { IconDeviceMessage } from '#build/components';
   @apply flex flex-row gap-x-5;
 
   &-button {
-    @apply bg-hanPurple px-10 py-4 text-white rounded-full font-bold text-lg;
+    @apply bg-hanPurple px-5 lg:px-10 py-3 lg:py-4 text-white rounded-full font-bold text-xs lg:text-lg;
     @apply hover:bg-cetaceanBlue
   }
 
   &-link {
-    @apply flex flex-row gap-x-1 items-center text-hanPurple font-semibold;
+    @apply flex flex-row gap-x-1 items-center text-hanPurple font-semibold text-xs lg:text-base;
   }
 }
 </style>

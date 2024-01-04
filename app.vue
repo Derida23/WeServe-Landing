@@ -57,7 +57,7 @@ useHead({
 }
 
 #hero {
-  @apply grid grid-cols-2 gap-x-4 mt-20;
+  @apply grid grid-cols-2 gap-x-4 mt-10 lg:mt-20;
 }
 
 #companies {
