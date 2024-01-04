@@ -25,7 +25,8 @@ const menu = [
 }
 
 .menu {
-  @apply flex flex-row items-center gap-1 font-medium cursor-pointer;
-  @apply hover:text-hanPurple
+  @apply md:hidden;
+  @apply lg:flex flex-row items-center gap-1 font-medium cursor-pointer;
+  @apply hover:text-hanPurple;
 }
 </style>

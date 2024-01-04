@@ -7,7 +7,7 @@ useHead({
 
 <template>
   <div id="body">
-    <Navbar />
+    <Navbar id="navbar" />
     <section id="hero">
       <HeroLeft />
       <HeroRight />
@@ -45,7 +45,15 @@ useHead({
 
 <style scoped lang="postcss">
 #body {
-  @apply max-w-6xl mx-auto pt-6;
+  @apply max-w-lg mx-auto pt-6;
+  @apply md:max-w-2xl;
+  @apply lg:max-w-4xl;
+  @apply xl:max-w-6xl;
+  @apply 3xl:max-w-[90rem];
+}
+
+#navbar {
+  @apply hidden sm:flex md:flex lg:flex;
 }
 
 #hero {
@@ -70,6 +78,7 @@ useHead({
 
 #faq {
   @apply mt-20 max-w-6xl mx-auto;
+  @apply 3xl:max-w-[90rem];
 }
 
 #explore {

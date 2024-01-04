@@ -75,6 +75,7 @@
 
   &-container {
     @apply grid grid-cols-4 gap-x-28 max-w-6xl;
+    @apply 3xl:max-w-[90rem];
   }
 
   &-logo {
