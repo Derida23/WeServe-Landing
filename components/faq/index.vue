@@ -129,45 +129,45 @@ const onOffView = (index: number, mode?: number) => {
 }
 
 .faq {
-  @apply grid grid-cols-1 lg:grid-cols-2 gap-4 gap-x-4 my-10 px-16 xl:px-0;
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4 gap-x-4 my-10 px-4 md:px-16 xl:px-0;
 
   &-wrapper {
     @apply flex flex-col gap-y-5;
   }
 
   &-card {
-    @apply px-5 py-4 bg-white rounded-xl;
+    @apply px-4 md:px-5 py-3 md:py-4 bg-white rounded-xl;
 
     &-title {
-      @apply font-bold text-lg flex items-center justify-between;
+      @apply font-bold text-sm md:text-lg flex flex-row gap-x-4 items-center justify-between;
     }
 
     &-arrow {
-      @apply bg-transparent w-7 h-7 rounded-full flex items-center justify-center;
+      @apply bg-transparent w-4 h-4 md:w-7 md:h-7 rounded-full flex items-center justify-center;
 
       &-down {
-        @apply bg-cetaceanBlue w-7 h-7 rounded-full flex items-center justify-center;
+        @apply bg-cetaceanBlue w-4 h-4 md:w-7 md:h-7 rounded-full flex items-center justify-center;
       }
     }
 
     &-desc {
-      @apply text-coolGray mt-4 mb-3 text-sm;
+      @apply text-coolGray mt-2 md:mt-4 mb-1 md:mb-3 text-xs md:text-sm;
     }
 
     &-link {
-      @apply text-hanPurple text-sm font-semibold cursor-pointer;
+      @apply text-hanPurple text-xs md:text-sm font-semibold cursor-pointer;
     }
   }
 
   &-email {
-    @apply px-5 py-4 bg-cetaceanBlue text-white rounded-xl cursor-pointer flex items-center justify-between mt-5;
+    @apply text-xs md:text-base px-4 md:px-5 py-3 md:py-4 bg-cetaceanBlue text-white rounded-xl cursor-pointer flex items-center justify-between mt-5;
 
     &-icon {
       @apply flex items-center flex-row gap-x-2;
     }
 
     &-button {
-      @apply bg-white w-7 h-7 rounded-full flex items-center justify-center;
+      @apply bg-white w-4 h-4 md:w-7 md:h-7 rounded-full flex items-center justify-center;
     }
   }
 }

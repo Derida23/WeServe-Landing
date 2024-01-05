@@ -3,11 +3,13 @@ import type { IconGlobal } from '#build/components';
 <script setup lang="ts"></script>
 
 <template>
-  <div class="badge">
-    <IconGlobal filled class="!mb-0 text-2xl" />
-    <p class="text-sm lg:text-base font-semibold">
-      We host more than 120,000 websites
-    </p>
+  <div class=" flex justify-center md:justify-normal">
+    <div class="badge">
+      <IconGlobal filled class="!mb-0 text-2xl" />
+      <p class="text-xs md:text-sm lg:text-base font-semibold">
+        We host more than 120,000 websites
+      </p>
+    </div>
   </div>
 </template>
 

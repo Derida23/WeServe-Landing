@@ -52,7 +52,7 @@ h1 {
 }
 
 .service {
-  @apply grid grid-cols-2 xl:grid-cols-4 gap-8 xl:gap-x-14 cursor-pointer;
+  @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 xl:gap-x-14 cursor-pointer px-4 md:px-0;
 
   &-item {
     @apply bg-white rounded-2xl p-7;

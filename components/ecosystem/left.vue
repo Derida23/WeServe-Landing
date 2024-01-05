@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="relative">
+  <div class="hidden md:flex md:relative">
     <div class="badge-top">
       <IconCrown filled class="text-3xl lg:text-5xl text-white" />
     </div>

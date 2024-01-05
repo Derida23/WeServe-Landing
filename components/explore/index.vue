@@ -6,15 +6,18 @@
   <div class="explore">
     <div class="explore-wrapper">
       <div>
-        <div class="badge">
-          <IconGlobal filled class="!mb-0 text-2xl" />
-          <p class="font-semibold">
-            We host more than 120,000 websites
-          </p>
+        <div class="flex justify-center md:justify-normal ">
+          <div class="badge">
+            <IconGlobal filled class="!mb-0 text-2xl" />
+            <p class="font-semibold">
+              We host more than 120,000 websites
+            </p>
+          </div>
         </div>
         <div class="my-5 lg:my-10">
           <h1 class="explore-text">Start Growing Today</h1>
-          <p class="mt-3 lg:mt-5 lg:w-11/12 text-xs lg:text-base">We provide a variety of servers to grow your users
+          <p class="mt-3 lg:mt-5 lg:w-11/12 text-xs lg:text-base  text-center md:text-left">We provide a variety of
+            servers to grow your users
             acquisition much user-friendly and boosting up sales.</p>
         </div>
 
@@ -96,37 +99,38 @@
 
 <style scoped lang="postcss">
 .badge {
-  @apply flex flex-row items-center bg-white px-4 py-2 rounded-full gap-1 w-fit text-richBlack text-xs lg:text-base;
+  @apply flex flex-row items-center bg-white px-2 md:px-4 py-2 rounded-full gap-1 w-fit text-richBlack text-xs lg:text-base;
 }
 
 .explore {
-  @apply relative bg-cetaceanBlue w-full h-20 lg:h-80 flex justify-center;
+  @apply relative bg-cetaceanBlue w-full h-60 md:h-20 lg:h-80 flex justify-center;
 
   &-wrapper {
-    @apply bg-hanPurple p-6 py-10 lg:p-12 rounded-[40px] text-white grid grid-cols-2 gap-x-8 absolute max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto top-[-10rem] items-center;
+    @apply bg-hanPurple p-4 md:p-6 py-4 md:py-10 lg:p-12 rounded-[40px] text-white grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-8 absolute max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto top-[-10rem] items-center;
     @apply 3xl:max-w-[90rem]
   }
 
   &-text {
-    @apply font-bold text-2xl lg:text-4xl font-serif;
+    @apply font-bold text-2xl lg:text-4xl font-serif text-center md:text-left;
   }
 
   .button-container {
     @apply flex flex-row items-center gap-x-2 lg:gap-x-6;
+    @apply justify-center md:justify-normal;
   }
 
   .button {
     &-explore {
-      @apply rounded-full text-richBlack px-5 lg:px-10 py-3 bg-mustard font-semibold text-sm lg:text-base;
+      @apply rounded-full text-richBlack px-5 lg:px-10 py-3 bg-mustard font-semibold text-xs md:text-sm lg:text-base;
     }
 
     &-schedule {
-      @apply flex flex-row gap-x-1 items-center text-sm lg:text-base;
+      @apply flex flex-row gap-x-1 items-center text-xs md:text-sm lg:text-base;
     }
   }
 
   &-content {
-    @apply grid grid-cols-3 gap-5;
+    @apply grid grid-cols-3 md:grid-cols-3 gap-5;
   }
 
   &-card {

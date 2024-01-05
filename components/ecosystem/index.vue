@@ -9,6 +9,6 @@
 
 <style scoped lang="postcss">
 .ecosystem {
-  @apply grid grid-cols-2 gap-x-16
+  @apply grid grid-cols-1 md:grid-cols-2 gap-x-16
 }
 </style>

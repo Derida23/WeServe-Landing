@@ -13,7 +13,7 @@
 
 <style scoped lang="postcss">
 .hero-wrapper {
-  @apply flex flex-row items-center justify-end pr-12 h-[400px] lg:h-[550px];
+  @apply hidden md:flex flex-row items-center justify-end pr-12 h-[400px] lg:h-[550px];
 }
 
 .hero-image {

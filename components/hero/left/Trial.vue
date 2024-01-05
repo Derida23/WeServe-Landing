@@ -17,7 +17,7 @@ import type { IconDeviceMessage } from '#build/components';
 
 <style scoped lang="postcss">
 .trial {
-  @apply flex flex-row gap-x-5;
+  @apply flex flex-row gap-x-5 justify-center md:justify-normal;
 
   &-button {
     @apply bg-hanPurple px-5 lg:px-10 py-3 lg:py-4 text-white rounded-full font-bold text-xs lg:text-lg;
