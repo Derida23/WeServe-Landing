@@ -29,15 +29,15 @@
         </p>
       </div>
     </div>
-    <NuxtImg src="/images/illustration-2.png" loading="lazy" width="400" height="497"
-      class="rounded-[50px] lg:rounded-[70px] ml-10 xl:ml-12" />
+    <img src="/images/illustration-2.png" loading="lazy"
+      class="rounded-[50px] lg:rounded-[70px] ml-10 xl:ml-12 md:w-[300px] md:h-[400px] lg:w-[400px] lg:h-[490px] xl:w-[400px] xl:h-[497px] object-cover" />
   </div>
 </template>
 
 <style scoped lang="postcss">
 .badge-top {
   @apply bg-hanPurple rounded-full w-14 lg:w-[86px] h-14 lg:h-[86px] flex items-center justify-center;
-  @apply absolute -top-3 xl:top-[-10px] -right-14 xl:right-14;
+  @apply absolute -top-3 xl:top-[-10px] -right-14 xl:right-14 3xl:right-48;
 }
 
 .badge-mid {
@@ -57,7 +57,8 @@
 }
 
 .badge-bottom {
-  @apply bg-white w-fit p-3 lg:p-5 flex items-center gap-x-1 lg:gap-x-3 rounded-2xl lg:rounded-3xl absolute -bottom-7 xl:bottom-20 right-10;
+  @apply bg-white w-fit p-3 lg:p-5 flex items-center gap-x-1 lg:gap-x-3 rounded-2xl lg:rounded-3xl;
+  @apply absolute -bottom-7 xl:bottom-20 right-10 3xl:right-36;
 
   &-title {
     @apply font-semibold text-sm lg:text-lg;

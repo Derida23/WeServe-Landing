@@ -16,7 +16,7 @@
 
 <style scoped lang="postcss">
 .badge {
-  @apply absolute top-[-10px] -left-10 xl:left-16;
+  @apply absolute top-[-10px] -left-10 xl:left-16 3xl:left-48;
 
   &-wrapper {
     @apply flex flex-row items-center gap-x-2 xl:gap-x-3 bg-white p-3 xl:p-4 w-fit rounded-3xl;

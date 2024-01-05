@@ -6,7 +6,7 @@
       <HeroRightBadgeTop />
       <HeroRightBadgeMid />
       <HeroRightBadgeBot />
-      <NuxtImg src="/images/illustration-1.jpeg" loading="lazy" width="400" height="497" class="hero-image" />
+      <img src="/images/illustration-1.jpeg" loading="lazy" class="hero-image" />
     </div>
   </div>
 </template>
@@ -18,5 +18,7 @@
 
 .hero-image {
   @apply rounded-r-[50px] lg:rounded-r-[70px] rounded-bl-[50px] lg:rounded-bl-[70px];
+  @apply md:w-[280px] md:h-[347px] lg:w-[392px] lg:h-[487px] w-[400px] h-[497px] object-cover;
+
 }
 </style>
